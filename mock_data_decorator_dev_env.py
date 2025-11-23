@@ -1,6 +1,7 @@
 
-# ENV = "dev"
-ENV = "prod"
+
+# ENV = "prod"
+ENV = "dev"
 
 def mock_data_decorator(func):
     def wrapper(*args, **kwargs):
